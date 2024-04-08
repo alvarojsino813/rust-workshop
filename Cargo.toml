@@ -1,0 +1,77 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "00-hello_world"
+path = "src/00-hello_world.rs"
+
+[[bin]]
+name = "10-borrow_checker"
+path = "src/10-borrow_checker.rs"
+
+[[bin]]
+name = "11-borrow_checker"
+path = "src/11-borrow_checker.rs"
+
+[[bin]]
+name = "20-functional_programming"
+path = "src/20-functional_programming.rs"
+
+[[bin]]
+name = "22-functional_programming"
+path = "src/22-functional_programming.rs"
+
+[[bin]]
+name = "23-functional_programming"
+path = "src/23-functional_programming.rs"
+
+[[bin]]
+name = "30-enums"
+path = "src/30-enums.rs"
+
+[[bin]]
+name = "31-enums"
+path = "src/31-enums.rs"
+
+[[bin]]
+name = "32-enums"
+path = "src/32-enums.rs"
+
+[[bin]]
+name = "33-enums"
+path = "src/33-enums.rs"
+
+[[bin]]
+name = "40-structs_and_traits"
+path = "src/40-structs_and_traits.rs"
+
+[[bin]]
+name = "41-structs_and_traits"
+path = "src/41-structs_and_traits.rs"
+
+[[bin]]
+name = "42-structs_and_traits"
+path = "src/42-structs_and_traits.rs"
+
+[[bin]]
+name = "43-structs_and_traits"
+path = "src/43-structs_and_traits.rs"
+
+[[bin]]
+name = "50-macros"
+path = "src/50-macros.rs"
+
+[[bin]]
+name = "51-macros"
+path = "src/51-macros.rs"
+
+[[bin]]
+name = "52-macros"
+path = "src/52-macros.rs"
+
+
+[dependencies]
